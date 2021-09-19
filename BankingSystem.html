@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./BankingSystem.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+    </head>
+  <body>
+    <script>
+      function pageredirect(){
+            window.location.href = "\PaymentPage.php";
+            
+      }
+
+      function pageredirect2(){
+            window.location.href = "\Customer.php";
+            
+      }
+    </script>
+    <div class="header">
+      <img id="logo" src="logo.png">
+        <header id="header">TSF BANK</header>
+        <div class="header-right">
+          <a class="active" href="BankingSystem.html">Home</a>
+          <a href="Customer.php">Customer Details</a>
+          <a href="PaymentPage.php">Transaction</a>
+
+        </div>
+      </div>
+      <br>
+      <div>
+        <div id="text">
+          <p><h2>Sparks Foundation Bank.</h2></p>
+          <p><u>CHOOSE AN ACTION</u></p>
+        
+          
+          <button id="button2" type="button" onclick="pageredirect2()">Customer Details</button>
+          <button id="button1" type="button" onclick="pageredirect()">Transaction</button>
+          
+        </div>
+          <br>
+      </div>
+
+      <div id="image">
+        <img src="Bank.png">
+      </div>
+
+      <footer>
+        <p>Author: Mansi Sambare<br>
+        <a href="mansisambare@gmail.com">mansisambare@gmail.com</a></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
