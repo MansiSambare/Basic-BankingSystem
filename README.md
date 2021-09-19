@@ -5,10 +5,10 @@ This is an basic banking website, where one can transfer money among any two use
 # Technology Used
 HTML, CSS, JavaScript, PHP, MYSQL
 # Images
-Home Page
+#### Home Page
 ![alt text](https://github.com/MansiSambare/Basic-BankingSystem/blob/main/Screenshots/IMG-20210919-WA0003.jpg)
-Customer Details
+#### Customer Details
 ![alt text](https://github.com/MansiSambare/Basic-BankingSystem/blob/main/Screenshots/IMG-20210919-WA0004.jpg)
-Transaction
+#### Transaction
 ![alt text](https://github.com/MansiSambare/Basic-BankingSystem/blob/main/Screenshots/IMG-20210919-WA0005.jpg)
 
